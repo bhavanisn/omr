@@ -67,6 +67,8 @@ public:
 
    bool hasPopulationCountInstruction();
    bool supportsDecimalFloatingPoint();
+   bool hasBitCompressInstruction();
+   bool hasBitExpandInstruction();
 
    /**
     * @brief Determines whether 32bit integer rotate is available

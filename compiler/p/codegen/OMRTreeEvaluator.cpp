@@ -2153,12 +2153,14 @@ OMR::Power::TreeEvaluator::ipopcntEvaluator(TR::Node *node, TR::CodeGenerator *c
 TR::Register*
 OMR::Power::TreeEvaluator::icompressbitsEvaluator(TR::Node *node, TR::CodeGenerator *cg)
    {
+	   printf("OMR: compressbitsEvaluator \n");
    return TR::TreeEvaluator::unImpOpEvaluator(node, cg);
    }
 
 TR::Register*
 OMR::Power::TreeEvaluator::iexpandbitsEvaluator(TR::Node *node, TR::CodeGenerator *cg)
    {
+	   printf("OMR: expandbitsEvaluator \n");
    return TR::TreeEvaluator::unImpOpEvaluator(node, cg);
    }
 
@@ -2195,12 +2197,14 @@ OMR::Power::TreeEvaluator::lpopcntEvaluator(TR::Node *node, TR::CodeGenerator *c
 TR::Register*
 OMR::Power::TreeEvaluator::lcompressbitsEvaluator(TR::Node *node, TR::CodeGenerator *cg)
    {
+	   printf("OMR: long compressbitsEvaluator \n");
    return TR::TreeEvaluator::unImpOpEvaluator(node, cg);
    }
 
 TR::Register*
 OMR::Power::TreeEvaluator::lexpandbitsEvaluator(TR::Node *node, TR::CodeGenerator *cg)
    {
+	   printf("OMR: long lexpandbitsEvaluator\n");
    return TR::TreeEvaluator::unImpOpEvaluator(node, cg);
    }
 
